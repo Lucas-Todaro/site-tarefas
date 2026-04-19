@@ -91,6 +91,7 @@ main{
 }
 .botoes button:hover{
     cursor: pointer;
+    background-color: #5e412f13;
 }
 .check{
     font-size: 1.8vh;

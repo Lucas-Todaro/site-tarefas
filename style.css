@@ -63,7 +63,7 @@ section{
     background-color: #e4d4a55d;
 }
 main{
-    margin-top: 3vh;
+    margin-top: 2vh;
 }
 .tarefa{
     border: solid #5e412f 0.1vh;
@@ -75,12 +75,26 @@ main{
     justify-content: space-between;
     font-weight: 400;
     color: #4d413a;
-    margin-top: 1vh;
+    margin-top: 2vh;
 }
-.tarefa input{
+.botoes{
+    display: flex;
+    gap: 1vh;
+}
+.botoes button{
     width: 4vh;
-    margin-right: 1vh
+    background-color: #5e412f1f;
+    border: solid #5e412f 0.1vh;    
+    border-radius: 10%;
+    color: green;  
+    font-weight: bolder;
 }
-.tarefa input:checked{
+.botoes button:hover{
+    cursor: pointer;
+}
+.check{
+    font-size: 1.8vh;
+}
+.botoes input:checked{
     accent-color: #78c0a8;
 }

@@ -67,10 +67,10 @@ main{
 }
 .tarefa{
     border: solid #5e412f 0.1vh;
-    padding: 0.6vh;
+    padding: 0.6vh 0.6vh 0.6vh 1.4vh;
     border-radius: 1vh;
     font-size: 2.4vh;
-    width: 50vh;
+    width: 46vh;
     display: flex;
     justify-content: space-between;
     font-weight: 400;
